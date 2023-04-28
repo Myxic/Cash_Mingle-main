@@ -1,0 +1,56 @@
+body 
+{
+	font-family: sans-serif;
+    height: 100vh;
+    padding: 10vw;
+}
+.container{
+    
+    box-shadow : 3px 3px rgb(161, 153, 153);
+    border-radius: 10px;
+    margin: auto;
+    border: 0px rgb(158, 147, 147) solid;
+    color: rgb(6, 75, 52);
+    width: 35vw;
+}
+.inputs{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+.header{
+     text-align: center;
+}
+.email-label{
+    position:relative;
+    
+    margin-right: 20px;
+}
+.email-inp,.password-inp{
+margin-bottom: 5vw;
+border-top: none;
+border-left: none;
+border-right: none;
+outline: none;
+}
+
+button{
+    
+    text-align: center;
+    align-content: center;
+    margin :auto;
+    margin-top: 5vw;
+    margin-bottom: 2px;
+    padding: 5px;
+    width: 100%;
+    
+    border: none;
+    border-radius:0px 0px 5px 5px;
+}
+button:hover{
+    background-color: rgb(3, 88, 88);
+    outline: none;
+    border: none;
+    color: white;
+    border-radius:0px 0px 5px 5px;
+}
